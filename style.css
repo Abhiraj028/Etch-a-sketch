@@ -2,6 +2,9 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(1, 68, 68);
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .Outcontainer, .container{
     display: flex;
@@ -10,19 +13,55 @@ html, body {
     align-items: center;
     
 }
+.btns{
+    display: flex;
+    gap:32px;
+    justify-content: space-between;
+}
 
+.btn{
+    background-color: antiquewhite;
+    border-radius: 20px;
+    border:0px;
+    font-size: 16px;
+    padding:12px;
+    cursor:pointer;
+}
+
+.Outcontainer{
+    gap: 10px;
+}
 
 .head{
     display: flex;
-    
 }
 
 .box{
-    border: 1px solid darkslategray;
-    height:40px;
-    width: 40px;
+    background-color: black;
+    height:25px;
+    width: 25px;
 }
 
-.red{
-    background-color: rebeccapurple;
+
+.heading, .size{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: antiquewhite;
+    font-size: larger;
+    margin: 0px;
+}
+
+.size{
+    display: flex;
+    gap:15px;
+}
+
+.num{
+    
+    color:antiquewhite;
+    
+}
+
+.container{
+    border: 50px dashed darkcyan;
 }
