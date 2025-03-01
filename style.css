@@ -1,0 +1,28 @@
+html, body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Outcontainer, .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.head{
+    display: flex;
+    
+}
+
+.box{
+    border: 1px solid darkslategray;
+    height:40px;
+    width: 40px;
+}
+
+.red{
+    background-color: rebeccapurple;
+}
